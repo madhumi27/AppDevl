@@ -1,0 +1,90 @@
+
+body{
+
+        background: url('empbg1.jpg');
+        background-size: cover;
+        height: 91vh;
+        /* background-size: auto; */
+        /* justify-content: center;
+        align-items: center;
+        display: flex; */
+}
+.loginPage{
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+    width: 60vh;
+    /* background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(10, 10, 10, 0.5)), url("empbg1.jpg"); */
+    /* min-height: 110vh;
+    min-width: 200vh; */
+     /* background-size: auto; */
+    /* overflow-x: hidden;  */
+    /* background: gainsboro; */
+    /* background-image: url("empbg1.jpg"); */
+   box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    /* background: rgba(255, 255, 255, 0.20); */
+    backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    /* color: #ffffff; */
+    /* text-transform: uppercase; */
+    /* letter-spacing: 0.4cm; */
+    max-width: 330px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 50px;
+    
+  }
+
+.name{
+    font-family: cursive;
+    height: 40px;
+}
+
+    /* //jjj */
+    .container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 40px;
+        border-radius: 5px;
+       
+        /* box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37); */
+         backdrop-filter: blur(5.5px);
+         border-radius: 10px;
+    }
+      
+      h2 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+      button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      button:hover {
+        background-color: #45a049;
+      }
+      /* //loginas */
+      .but{
+        float: left;
+        text-decoration: none;
+        color: white;
+      }

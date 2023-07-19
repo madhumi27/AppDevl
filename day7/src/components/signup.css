@@ -1,0 +1,72 @@
+.signupPage {
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+    width: 60vh;
+    background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(10, 10, 10, 0.5)), url("empbg1.jpg");
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    max-width: 330px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    margin-top: 30px;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 5px;
+    backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ccc;
+  }
+  
+  h1 {
+    color: #ccc;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .login-link {
+    margin-top: 20px;
+  }
+  
+  .login-link a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,58 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .top-section {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .left-section {
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .personal-info {
+    flex: 1 1 auto;
+  }
+  
+  .bottom-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .box {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+  }
+  
+  /* Add more specific styles for each box, such as contact-info, works-info, etc. */
+  
+  .task-table {
+    /* Styles for task table */
+  }
+  
+  .meetings-table {
+    /* Styles for meetings table */
+  }
+  
+  .attendance-table {
+    /* Styles for attendance table */
+  }
+  

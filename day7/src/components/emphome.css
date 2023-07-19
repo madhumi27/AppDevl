@@ -1,0 +1,193 @@
+
+.h2css{
+  font-size: 1cm;
+  margin-top: 30px;
+  font-weight: 5000;
+  color: #faf6f6;
+  /* text-shadow: 0 0 10px #a1c186,
+              0 0 20px #8e7676,
+              0 0 30px #b16e6e; */
+              /* 0 0 80px #fff,
+              0 0 120px #fff,
+              0 0 160px #fff; */
+  font-family: 'Caprasimo', cursive;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+.h2css span{
+  transition: 0.5s;
+}
+.h2css:hover span:nth-child(1){
+  margin-right: 10px;
+}
+.h2css:hover span:nth-child(1):after{
+  content: "!!!";
+}
+.h2css:hover span:nth-child(2){
+  margin-left: 40px;
+}
+.h2css:hover span{
+
+  color: #ffffff;
+  text-shadow: 0 0 10px #acc698,
+              0 0 20px #8e7676,
+              0 0 40px #fff,
+              0 0 80px #fff,
+              0 0 120px #fff;
+}
+
+.top-employees-section{
+  padding: 50px;
+}
+.employee-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; /* Position content to the right */
+  align-items: center; /* Vertically center the content */
+}
+
+.employee-image-container {
+  width: 50%; /* Set the width to half of the page */
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+}
+
+.employee-image {
+  width: 50%; /* Adjust the width as desired */
+  height: auto;
+  margin-top: 70px;
+  border-radius: 50%; /* Make the image circular */
+}
+
+.employee-info {
+  width: 50%; /* Set the width to half of the page */
+}
+
+.employee-personal-info {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  height: 100%; /* Occupy full height of the info box */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the content vertically */
+}
+
+
+.employee-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+.employee-title span {
+  transition: 0.5s;
+}
+
+.employee-title:hover span:nth-child(1) {
+  margin-right: 10px;
+}
+
+.employee-title:hover span:nth-child(1):after {
+  content: "!!!";
+}
+
+.employee-title:hover span:nth-child(2) {
+  margin-left: 40px;
+}
+
+.employee-title:hover span {
+  color: #555;
+}
+
+.employee-section-title {
+  font-family: 'Noto Serif Makasar', serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #f9f9f9;
+}
+
+.employee-personal-info {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.employee-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  border-radius: 10px;
+}
+/* .employee-details:hover {
+  background-blur;
+  background-color: rgb(197, 190, 190);
+} */
+
+.employee-detail {
+  display: flex;
+  align-items: center;
+
+}
+
+.employee-label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.employee-value {
+  color: #cec7c7;
+}
+.top-employees-cards {
+  display: flex;
+  justify-content: space-between;
+  color: #dfdfdf;
+  padding: 40px;
+  /* background-color: rgba(255, 255, 255, 0.9); */
+
+}
+.employee1-card:hover {
+  transform: scale(1.05);
+}
+
+.employee1-card {
+  width: 200px;
+  padding: 20px;
+  /* background: linear-gradient(45deg, #FF6B6B, #5AABFF); */
+  background-color:white;
+  background-color: rgba(255, 255, 255, 0.9);
+
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(245, 242, 242, 0.2);
+}
+
+.employee1-image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  /* border-radius: 50%; */
+  margin-bottom: 10px;
+}
+
+.employee1-info {
+  margin-bottom: 10px;
+  color: #051924;
+  align-items: center;
+}
+
+.employee-name {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.employee-position {
+  color: #888;
+}

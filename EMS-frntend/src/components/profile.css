@@ -1,0 +1,103 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: rgb(231, 230, 230);
+  }
+  
+ 
+  
+  .top-section {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .left-section {
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
+  
+  .profile-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+  
+  .personal-info {
+    flex: 1 1 auto;
+  }
+  
+  .bottom-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .box {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8%;
+    box-sizing: border-box;
+    background-color: aliceblue;
+  }
+  
+  .name1 {
+    color: black;
+    background-color: aliceblue;
+  }
+  
+  .task-details {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .task-details table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  .task-details th,
+  .task-details td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .task-details thead th {
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;
+    z-index: 1;
+  }
+  
+  .meeting-table-scroll {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .meeting-table-scroll table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  .meeting-table-scroll th,
+  .meeting-table-scroll td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .meeting-table-scroll thead {
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;
+    z-index: 1;
+  }
+  

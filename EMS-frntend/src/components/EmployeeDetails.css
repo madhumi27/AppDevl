@@ -1,0 +1,19 @@
+.employee-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+  }
+  
+  .employee-card {
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .detail {
+    margin-bottom: 10px;
+  }
+  

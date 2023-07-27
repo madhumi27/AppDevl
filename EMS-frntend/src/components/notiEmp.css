@@ -1,0 +1,107 @@
+/* notiEmp.css */
+.notification-container-employee {
+    margin-top: 50px;
+    position: relative;
+    padding-left: 70px;
+    padding-right: 70px;
+    z-index: 1;
+    
+  }
+  
+  .notification-title-employee {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  .notification-item-employee {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .notification-header-employee {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .notification-name-employee {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .notification-actions-employee {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 10px;
+  }
+  
+  .notification-type-employee {
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  .notification-icons-employee {
+    position: absolute;
+    bottom: 29px;
+    right: 30px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  
+  .accept-icon-employee,
+  .reject-icon-employee {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .accept-icon-employee {
+    color: green;
+  }
+  
+  .reject-icon-employee {
+    color: red;
+  }
+  
+  .notification-description-employee {
+    margin-top: 10px;
+  }
+  
+  .description-text-employee {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .notification-meta-employee {
+    color: #333;
+  }
+ 
+.notification-reply-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .notification-reply-button button {
+    background-color: transparent;
+    color: #333;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .notification-reply-button button:hover {
+    background-color: #0056b3;
+  }

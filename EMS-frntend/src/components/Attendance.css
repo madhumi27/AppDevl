@@ -1,0 +1,75 @@
+.attendance-container {
+    margin: 20px;
+    
+  }
+  .search-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .search-wrapper {
+    width: 500px;
+  }
+  .search-input {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    width: 10px;
+  }
+  .sort-select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+  }
+  .filter-sort {
+    margin-left: 20px;
+  }
+  .filter-select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .attendance-table th,
+  .attendance-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .attendance-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .attendance-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .attendance-table tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .attendance-table .status-green {
+    color: green;
+  }
+  
+  .attendance-table .status-red {
+    color: red;
+  }
+  

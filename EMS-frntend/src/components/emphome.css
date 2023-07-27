@@ -1,0 +1,282 @@
+.h2css {
+  font-size: 1cm;
+  margin-top: 30px;
+  font-weight: 5000;
+  color: #faf6f6;
+  font-family: 'Caprasimo', cursive;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
+.h2css span {
+  transition: 0.5s;
+}
+
+.h2css:hover span:nth-child(1) {
+  margin-right: 10px;
+}
+
+.h2css:hover span:nth-child(1):after {
+  content: "!!!";
+}
+
+.h2css:hover span:nth-child(2) {
+  margin-left: 40px;
+}
+
+.h2css:hover span {
+  color: #ffffff;
+  text-shadow: 0 0 10px #acc698, 0 0 20px #8e7676, 0 0 40px #fff, 0 0 80px #fff, 0 0 120px #fff;
+}
+
+.top-employees-section {
+  padding: 50px;
+}
+
+.employee-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.employee-image-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.employee-image {
+  width: 50%;
+  height: auto;
+  margin-top: 70px;
+  border-radius: 50%;
+}
+
+.employee-info {
+  width: 50%;
+}
+
+.employee-personal-info {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.employee-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+.employee-title span {
+  transition: 0.5s;
+}
+
+.employee-title:hover span:nth-child(1) {
+  margin-right: 10px;
+}
+
+.employee-title:hover span:nth-child(1):after {
+  content: "!!!";
+}
+
+.employee-title:hover span:nth-child(2) {
+  margin-left: 40px;
+}
+
+.employee-title:hover span {
+  color: #555;
+}
+
+.employee-section-title {
+  font-family: 'Noto Serif Makasar', serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #f9f9f9;
+}
+
+.employee-personal-info {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.employee1-details {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.employee-detail {
+  display: flex;
+  align-items: center;
+}
+
+.employee-label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.employee-value {
+  color: #cec7c7;
+}
+
+.top-employees-cards {
+  display: flex;
+  justify-content: space-between;
+  color: #dfdfdf;
+  padding: 40px;
+}
+
+.employee1-card:hover {
+  transform: scale(1.05);
+}
+
+.employee1-card {
+  width: 200px;
+  padding: 20px;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(245, 242, 242, 0.2);
+}
+
+.employee1-image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.employee1-info {
+  margin-bottom: 10px;
+  color: #051924;
+  align-items: center;
+}
+
+.employee-name {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.employee-position {
+  color: #888;
+}
+
+.my-tasks-section {
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #dfdfdf;
+}
+
+/* Add your existing CSS styles here */
+
+.task-table {
+  width: 100%;
+  border: 2px solid #333;
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+
+.task-table th,
+.task-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.task-table th {
+  font-weight: bold;
+  color: #dfdfdf;
+  background-color: #333;
+}
+
+.task-table td {
+  background-color: #333;
+  color: #888;
+}
+
+.task-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.task-table tbody tr:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.task-table tbody tr:hover td {
+  background-color: #fff;
+  color: #000;
+}
+
+.task-table a {
+  color: #1a83ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.meetings-table {
+  width: 100%;
+  border: 2px solid #333;
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+
+.meetings-table th,
+.meetings-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.meetings-table th {
+  font-weight: bold;
+  color: #dfdfdf;
+  background-color: #333;
+}
+
+.meetings-table td {
+  background-color: #333;
+  color: #888;
+}
+
+.meetings-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.meetings-table tbody tr:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.meetings-table tbody tr:hover td {
+  background-color: #fff;
+  color: #000;
+}
+
+.meetings-table a {
+  color: #1a83ff;
+  text-decoration: none;
+  font-weight: bold;
+}

@@ -1,0 +1,222 @@
+/* viewprofile.css */
+
+.profile-container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .profile-top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile-left-section {
+    flex: 1;
+  }
+  
+  .profile-info-container {
+    flex: 2;
+    text-align: right;
+  }
+  
+  .profile-name1 {
+    color: black;
+  }
+  
+  .profile-actions {
+    display: grid;
+    margin-left: 70px;
+    align-items: center;
+  }
+  
+  .icon:not(:last-child) {
+    margin-right: 30px; /* Adjust as needed */
+  }
+  
+  .profile-heading-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .profile-heading-button {
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .profile-heading-button.active {
+    border-bottom-color: #007bff;
+  }
+  
+  .profile-details-content {
+    display: none;
+  }
+  
+  .profile-details-content.active {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  /* Icons */
+  .MuiIconButton-root {
+    padding: 6px;
+    font-size: 1.5rem;
+  }
+  
+  /* Button */
+  .MuiButton-contained {
+    padding: 6px 16px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .profile-image {
+    margin-top: 20px;
+    width: 6cm;
+    height: 6cm;
+    margin-right: 50px;
+  }
+  
+  .task-form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; /* Ensure the overlay appears above everything else */
+  }
+  
+  /* Task Form */
+  .task-form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 450px;
+    height: auto; /* Adjust the width as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .task-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .task-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  
+  .task-form-label {
+    font-weight: bold;
+  }
+  
+  .task-form-input {
+    padding: 12px; /* Increase the padding to provide more space inside the input field */
+  }
+  
+  .task-form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .MuiOutlinedInput-root {
+    border-radius: 4px; /* Adjust as needed */
+  }
+  
+  .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    border: none;
+  }
+  .MuiDialogContent-root {
+width: 300px;
+  }
+  .MuiInputBase-input {
+    width: 50px;
+  }
+  .MuiOutlinedInput-input {
+    padding: 30px; /* Adjust as needed */
+  }
+  
+  /* ... (your existing styles) */
+  .meeting-form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; /* Ensure the overlay appears above everything else */
+  }
+  
+  .meeting-form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 450px;
+    height: auto; /* Adjust the width as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .meeting-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .meeting-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  
+  .meeting-form-label {
+    font-weight: bold;
+  }
+  
+  .meeting-form-input {
+    padding: 12px; /* Increase the padding to provide more space inside the input field */
+  }
+  
+  .meeting-form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .MuiOutlinedInput-root {
+    border-radius: 4px; /* Adjust as needed */
+  }
+  
+  .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    border: none;
+  }
+  
+  .MuiDialogContent-root {
+    width: 300px;
+  }
+  
+  .MuiInputBase-input {
+    width: 100%; /* Ensure the input field occupies the full width */
+  }
+  
+  .MuiOutlinedInput-input {
+    padding: 12px; /* Adjust as needed */
+  }
+  
+  
